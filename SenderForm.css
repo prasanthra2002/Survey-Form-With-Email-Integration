@@ -1,0 +1,54 @@
+/* Apply background to second page */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Container Styling */
+.sender-container {
+    text-align: center;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    color: white;
+}
+
+/* Form Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Back Button */
+.back-btn {
+    background-color: white;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.back-btn:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #ff5722, #d84315);
+}

@@ -1,0 +1,44 @@
+/* Apply background to entire page */
+body {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Center the container */
+.container {
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Question Styling */
+.question {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Score Display */
+.score-container {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Next Button */
+.next-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
